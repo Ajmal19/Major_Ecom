@@ -16,6 +16,6 @@ node{
         {
             sh "docker login -u ajmal19 -p ${DHPWD}"
         }
-        sh 'docker push ajmal19/phpmysql_app'
+        sh 'docker push ajmal19/phpmysql_app:v1'
     }
 }
